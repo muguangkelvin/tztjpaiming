@@ -1,0 +1,120 @@
+{
+  "profileVersion": "1.0.0",
+  "siteTopic": "梯子推荐排名网 - 魔法上网与客户端配置榜 (Mana Theme)",
+  "domain": "https://tztjpaiming.xyz/",
+  "brandName": "梯子推荐排名网",
+  "slogan": "透明评测指标、多维榜单对比、无干扰极简教程",
+  "primaryKeywords": [
+    "梯子推荐排名",
+    "2026好用机场排名榜",
+    "高性价比魔法机场",
+    "梯子排名前十",
+    "稳定翻墙梯子排行榜"
+  ],
+  "secondaryKeywords": [
+    "便宜梯子排名",
+    "晚高峰不限速机场排行",
+    "IPLC专线梯子排行榜",
+    "流媒体解锁梯子排行",
+    "Clash Verge 节点测速排序",
+    "Shadowrocket 节点延迟测试",
+    "Sing-box 订阅更新教程",
+    "Windows梯子客户端使用方法"
+  ],
+  "longTailKeywords": [
+    "测速延迟低不等于好用",
+    "梯子排名看哪些指标",
+    "机场节点丢包率怎么看",
+    "掉线自动切换配置",
+    "外贸办公梯子推荐",
+    "学术科研专用梯子排名",
+    "AI工具魔法上网节点选择"
+  ],
+  "heroKeywords": [
+    "梯子推荐排名",
+    "2026好用机场排名榜",
+    "高性价比魔法机场",
+    "梯子排名前十",
+    "稳定翻墙梯子排行榜",
+    "便宜梯子排名",
+    "晚高峰不限速机场排行",
+    "IPLC专线梯子排行榜"
+  ],
+  "footerKeywords": [
+    "梯子推荐排名网",
+    "魔法上网", "魔法机场", "Clash教程",
+    "梯子排行榜", "稳定机场", "节点延迟测试",
+    "订阅配置教程"
+  ],
+  "navigationItems": [
+    {
+      "label": "综合排名榜",
+      "url": "/posts/ranking/",
+      "type": "ranking",
+      "isContentSection": true,
+      "isCommercial": true,
+      "primaryKeyword": "梯子推荐排名",
+      "supportingKeywords": ["2026好用机场排名榜", "梯子排名前十", "稳定翻墙梯子排行榜"],
+      "articleCount": 5
+    },
+    {
+      "label": "客户端指南",
+      "url": "/posts/clients/",
+      "type": "clients",
+      "isContentSection": true,
+      "isCommercial": false,
+      "primaryKeyword": "客户端使用教程",
+      "supportingKeywords": ["Clash Verge 节点测速排序", "Shadowrocket 节点延迟测试", "Sing-box 订阅更新教程"],
+      "articleCount": 5
+    },
+    {
+      "label": "测速与排错",
+      "url": "/posts/speed-test-guide/",
+      "type": "speed-test-guide",
+      "isContentSection": true,
+      "isCommercial": false,
+      "primaryKeyword": "节点延迟测试",
+      "supportingKeywords": ["测速延迟低不等于好用", "梯子排名看哪些指标", "机场节点丢包率怎么看"],
+      "articleCount": 5
+    },
+    {
+      "label": "自营专线通道",
+      "url": "/service/",
+      "type": "service",
+      "isContentSection": true,
+      "isCommercial": true,
+      "primaryKeyword": "专线梯子通道",
+      "supportingKeywords": ["IPLC专线", "企业办公专线", "高可用高冗余通道"],
+      "articleCount": 4
+    }
+  ],
+  "faqKeywordCount": 100,
+  "faqClusters": [
+    "梯子推荐与选择",
+    "Clash客户端与订阅",
+    "Shadowsocks/SS协议",
+    "Trojan协议",
+    "梯子口语与风险须知",
+    "节点与延迟",
+    "价格与套餐",
+    "多设备兼容",
+    "故障排查与安全"
+  ],
+  "faqPageSize": 20,
+  "titlePatterns": {
+    "home": "梯子推荐排名网 - 2026年魔法上网节点与客户端配置榜 (Mana Theme)",
+    "ranking": "2026 梯子推荐排名榜：高性价比与稳定专线机场对比 | 梯子推荐排名网",
+    "clients": "主流魔法上网客户端下载、安装与订阅配置全指南 | 梯子推荐排名网",
+    "speedTest": "节点延迟与丢包率分析：测速排错与稳定性指南 | 梯子推荐排名网",
+    "service": "自营专线高速通道：高 SLA 生产力办公网络保障 | 梯子推荐排名网",
+    "provider": "{provider} 机场测评与优惠码：价格、节点与购买前须知 | 梯子推荐排名网"
+  },
+  "descriptionPatterns": {
+    "home": "梯子推荐排名网（tztjpaiming.xyz）采用 Mana 纯静态文章与专题博客架构，提供2026最新梯子推荐排名、魔法机场横向对比、教程、评测、FAQ、服务状态与自营产品入口。",
+    "ranking": "深入对比2026年各大高性价比魔法上网梯子，涵盖晚高峰带宽冗余度、IP纯净度、IPLC专线与流媒体解锁能力。",
+    "clients": "跨平台客户端配置教程，涵盖 Windows Clash Verge, macOS Loon/Clash, iOS Shadowrocket, Android Surfboard 及 Sing-box 订阅导入。"
+  },
+  "protectedBrandTerms": ["灵动云", "暮光加速", "暮光网络", "飞猫云", "微风网络", "Breezenet"],
+  "inactiveKeywords": [],
+  "sourceUpdatedAt": "2026-09-23"
+}

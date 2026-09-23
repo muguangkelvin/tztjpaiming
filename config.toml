@@ -1,0 +1,36 @@
+baseURL = "https://tztjpaiming.xyz/"
+languageCode = "zh-cn"
+title = "梯子推荐排名网 - 魔法上网与客户端配置榜 (Mana Theme)"
+theme = "mana"
+
+[params]
+  description = "梯子推荐排名网（tztjpaiming.xyz）采用 Mana 纯静态文章与专题博客架构，提供2026最新梯子推荐排名、魔法机场横向对比、教程、评测、FAQ、服务状态与自营产品入口。"
+  keywords = ["梯子推荐排名", "机场推荐", "魔法上网", "Mana博客", "Clash教程", "梯子排行榜", "稳定机场", "服务状态"]
+  footerText = "© 2026 梯子推荐排名网 · Mana 纯静态文章与专题博客"
+  slogan = "硬核评测与选型打分 · Mana 极速纯静态架构"
+
+[menu]
+  [[menu.main]]
+    name = "综合排名榜"
+    url = "/posts/ranking/"
+    weight = 1
+  [[menu.main]]
+    name = "客户端指南"
+    url = "/posts/clients/"
+    weight = 2
+  [[menu.main]]
+    name = "测速与排错"
+    url = "/posts/speed-test-guide/"
+    weight = 3
+  [[menu.main]]
+    name = "自营专线通道"
+    url = "/service/"
+    weight = 4
+  [[menu.main]]
+    name = "服务状态"
+    url = "/status/"
+    weight = 5
+  [[menu.main]]
+    name = "FAQ 知识库"
+    url = "/faq/"
+    weight = 6

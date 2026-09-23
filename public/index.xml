@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>梯子推荐排名网 (Mana 专题博客)</title>
+    <link>https://tztjpaiming.xyz/</link>
+    <description>Hugo Extended + Mana 纯静态文章与专题博客；教程、评测、FAQ、服务状态与自营产品入口。</description>
+    <language>zh-CN</language>
+    <item>
+      <title>2026年度梯子推荐与排名：晚高峰速率、延迟与丢包率综合横评</title>
+      <link>https://tztjpaiming.xyz/posts/2026-tizi-tuijian-paiming-zonghe-henping/</link>
+      <description>深入对比2026年主流付费梯子，从晚高峰带宽冗余、IPLC专线丢包率、流媒体解锁度等硬核维度进行综合排名与选型打分。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>AI 工具魔法上网节点选择：ChatGPT/Claude/Gemini 多地区配合</title>
+      <link>https://tztjpaiming.xyz/posts/ai-gongju-mofa-shangwang-jidian-xuanze/</link>
+      <description>ChatGPT、Claude、Gemini 对 IP 纯净度要求极高。本文盘点原生 IP 节点与防封号多地区配合选型方案。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>安卓稳定梯子与客户端配置：Surfboard / v2rayNG / Sing-box 指南</title>
+      <link>https://tztjpaiming.xyz/posts/android-wending-tizi-surfboard-v2rayng/</link>
+      <description>安卓设备后挂载易掉线？教你设置电量优化白名单、分应用代理与一键一键托管导入。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Clash Verge Rev 客户端配置全流程：从订阅导入到 TUN 模式</title>
+      <link>https://tztjpaiming.xyz/posts/clash-verge-rev-peizhi-jiaocheng/</link>
+      <description>新手首选 Clash Verge Rev 的下载、汉化、订阅导入、自定义规则与 TUN 模式接管全流程保姆级教程。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>大流量影音 4K 魔法节点推荐：Netflix/YouTube/Disney+ 解锁专线</title>
+      <link>https://tztjpaiming.xyz/posts/daliuliang-yingyin-4k-mofa-jidian/</link>
+      <description>测试各大梯子节点的 4K 视频缓冲速率、解锁成功率与晚高峰丢包率，提供流畅视听选型指南。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>电视 TV 端梯子配置指南：Android TV / Apple TV 结合梯子节点解锁 4K</title>
+      <link>https://tztjpaiming.xyz/posts/dianshi-tv-duan-tizi-peizhi-clash-tv/</link>
+      <description>如何在客厅的大屏电视上使用梯子节点流畅播放 YouTube 4K 与 Netflix？介绍路由器旁路由与 TV 客户端配置。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>机场节点丢包率测试方法：如何使用 MTR 与 OpenSpeedTest 评估线路</title>
+      <link>https://tztjpaiming.xyz/posts/diubaolv-ceping-yu-suo-luo-guan-li/</link>
+      <description>手把手教你利用 MTR 路由追踪工具分析节点路由跳数与丢包节点，精准定位本地网络与服务端故障。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>付费梯子排行榜：低延迟、高 SLA 专线梯子选购对比</title>
+      <link>https://tztjpaiming.xyz/posts/fufei-tizi-paiming-bang-duibi/</link>
+      <description>拒绝虚标测速，多维度剖析付费梯子的 SLA 保障机制、BGP 中转与入口单点故障冗余设计。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>高性价比魔法节点挑选秘籍：拒绝低价陷阱与流量虚标</title>
+      <link>https://tztjpaiming.xyz/posts/gaoxingjiabi-mofa-jidian-tiaoxuan/</link>
+      <description>教你通过节点倍率计算、重置周期与峰值限速识别高性价比梯子，避免掉入低价跑路梯子的陷阱。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>Hysteria 2 与 VLESS 协议深度解析：抗封锁与拥塞控制原理</title>
+      <link>https://tztjpaiming.xyz/posts/hysteria2-vs-vless-xieyi-xiangjie/</link>
+      <description>详细对比 UDP 拥塞控制 Hysteria 2 协议与基于 TLS/REALITY 的 VLESS 协议在弱网和高丢包环境下的表现。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>iOS 梯子选购与客户端导入：Shadowrocket / Quantumult X / Stash 指南</title>
+      <link>https://tztjpaiming.xyz/posts/ios-tizi-xuangou-shadowrocket-quantumult-x/</link>
+      <description>iPhone/iPad 用户如何选择小火箭 Shadowrocket 与 Stash？包含 App Store 账号与订阅导入流程。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>技术横评：为什么 IPLC 专线梯子在晚高峰排名始终优于普通直连公网？</title>
+      <link>https://tztjpaiming.xyz/posts/iplc-zhuanxian-vs-bgp-zhongji-jishu-henping/</link>
+      <description>从网络协议底层深入对比 IPLC 专线、BGP 中继与公网直连的技术架构差异，揭秘晚高峰不丢包的真正核心原因。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>自营专线高速通道：高 SLA 生产力办公网络保障</title>
+      <link>https://tztjpaiming.xyz/posts/iplc-zhuanxian-ziying-tongdao-jieshao/</link>
+      <description>针对企业跨境团队与高吞吐需求用户，提供独立带宽冗余、99.9% 在线率 SLA 的专线网络通道方案。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>梯子延迟与实际带宽吞吐关系：为什么 ICMP Ping 低不等于速度快？</title>
+      <link>https://tztjpaiming.xyz/posts/jidian-yanchi-yuji-daikuan-guanxi/</link>
+      <description>解释网络延迟（Latency）、抖动（Jitter）与实际 TCP/UDP 吞吐量（Throughput）的物理关系，剖析测速误区。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+    <item>
+      <title>跨平台设备梯子选型清单：Windows / macOS / iOS / Android 协同的最佳方案</title>
+      <link>https://tztjpaiming.xyz/posts/kuapingtai-shebei-tizi-xuanxing-qingdan/</link>
+      <description>针对多设备家庭与办公场景，总结 Windows、macOS、iOS、Android 及 Smart TV 端的通用托管订阅导入方案。</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
