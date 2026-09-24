@@ -907,7 +907,7 @@ def render_mana_page(title, description, canonical, content_html, active_nav="",
             <div class="header-top">
                 <div class="logo-area">
                     <div class="logo">
-                        <a href="/">TZRank <span>Mana</span></a>
+                        <a href="/">2026年 <span>梯子推荐排名</span></a>
                     </div>
                     <span class="badge badge-indigo">Hugo Extended + Mana</span>
                     <span class="badge badge-green">28 节点正常</span>
