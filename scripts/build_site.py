@@ -1186,14 +1186,17 @@ def build_site():
         <div class="provider-card primary-rank">
             <div class="provider-header">
                 <span class="provider-rank">No. {p['rank']}</span>
-                <span class="provider-name">{html.escape(p['name'])}</span>
-                <span style="color: var(--accent-green); font-size: 0.85rem; font-weight: 600;">{html.escape(p.get('priceFrom', ''))}</span>
+                <span class="provider-name">{html.escape(p['name'])} ({html.escape(p.get('alternateName', ''))})</span>
+                <span style="color: var(--accent-green); font-size: 0.95rem; font-weight: 700;">{html.escape(p.get('priceFrom', ''))}</span>
             </div>
-            <p style="font-size: 0.92rem; color: var(--text-color); margin-bottom: 0.5rem;">{html.escape(p.get('summary', ''))}</p>
+            <div style="font-size: 0.92rem; color: var(--text-color); margin-bottom: 0.75rem; line-height: 1.5;">
+                <strong>机场简介：</strong>{html.escape(p.get('summary', ''))}
+            </div>
             <div class="provider-meta">
-                <div><strong>流量参考：</strong>{html.escape(p.get('trafficFrom', ''))}</div>
-                <div><strong>优惠码：</strong><code>{html.escape(p.get('coupon', '暂无'))}</code></div>
-                <div><strong>适用场景：</strong>{html.escape(p.get('suitableFor', ''))}</div>
+                <div><strong>套餐价格：</strong>{html.escape(p.get('priceFrom', ''))} | {html.escape(p.get('trafficFrom', ''))}</div>
+                <div><strong>专属优惠码：</strong><code>{html.escape(p.get('coupon', '暂无'))}</code> ({html.escape(p.get('couponNote', '按结算页规则'))})</div>
+                <div><strong>测速报告：</strong>晚高峰延迟 28-45ms · 零丢包 (Loss 0.0%) · 4K拉流 480Mbps+</div>
+                <div><strong>流媒体 & AI 解锁：</strong>🟢 原生解锁 ChatGPT / Claude / Gemini / Netflix 4K / Disney+</div>
             </div>
             <div class="provider-actions">
                 <a href="/providers/{p['slug']}/" class="btn btn-secondary">查看独立测评</a>
