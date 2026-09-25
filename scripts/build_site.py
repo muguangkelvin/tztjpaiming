@@ -909,7 +909,7 @@ def render_mana_page(title, description, canonical, content_html, active_nav="",
                     <div class="logo">
                         <a href="/">2026年 <span>梯子推荐排名</span></a>
                     </div>
-                    <span class="badge badge-indigo">Hugo Extended + Mana</span>
+                    <span class="badge badge-indigo">2026 梯子推荐排名</span>
                     <span class="badge badge-green">28 节点正常</span>
                 </div>
                 <nav class="main-nav" aria-label="主导航">
@@ -1244,16 +1244,16 @@ def build_site():
                 ALL_URLS.append(canonical)
 
                 bc = [("文章专栏", "/posts/ranking/"), (title, "")]
-                rendered = render_mana_page(f"{title} | Mana 专题博客", desc, canonical, body_html, active_nav="/posts/ranking/", breadcrumbs=bc, show_sidebar=True)
+                rendered = render_mana_page(f"{title} | 梯子推荐排名", desc, canonical, body_html, active_nav="/posts/ranking/", breadcrumbs=bc, show_sidebar=True)
                 with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
                     f.write(rendered)
 
     # 3. Build Navigation Category Pages
     nav_routes = [
-        ("/posts/ranking/", "综合排名榜", "2026 梯子推荐排名榜：高性价比与稳定专线机场对比 | Mana 专题博客", "深入对比2026年各大高性价比魔法上网梯子，涵盖晚高峰带宽冗余度、IP纯净度、IPLC专线与流媒体解锁能力。"),
-        ("/posts/clients/", "客户端指南", "主流魔法上网客户端下载、安装与订阅配置全指南 | Mana 专题博客", "跨平台客户端配置教程，涵盖 Windows Clash Verge, macOS Loon/Clash, iOS Shadowrocket, Android Surfboard 及 Sing-box 订阅导入。"),
-        ("/posts/speed-test-guide/", "测速与排错", "节点延迟与丢包率分析：测速排错与稳定性指南 | Mana 专题博客", "节点延迟与丢包率分析、测速排错、掉线自动切换与网络丢包深度评测指南。"),
-        ("/service/", "自营专线通道", "自营专线高速通道：高 SLA 生产力办公网络保障 | Mana 专题博客", "针对企业跨境团队与高吞吐需求用户，提供独立带宽冗余、99.9% 在线率 SLA 的专线网络通道方案。")
+        ("/posts/ranking/", "综合排名榜", "2026 梯子推荐排名榜：高性价比与稳定专线机场对比 | 梯子推荐排名", "深入对比2026年各大高性价比魔法上网梯子，涵盖晚高峰带宽冗余度、IP纯净度、IPLC专线与流媒体解锁能力。"),
+        ("/posts/clients/", "客户端指南", "主流魔法上网客户端下载、安装与订阅配置全指南 | 梯子推荐排名", "跨平台客户端配置教程，涵盖 Windows Clash Verge, macOS Loon/Clash, iOS Shadowrocket, Android Surfboard 及 Sing-box 订阅导入。"),
+        ("/posts/speed-test-guide/", "测速与排错", "节点延迟与丢包率分析：测速排错与稳定性指南 | 梯子推荐排名", "节点延迟与丢包率分析、测速排错、掉线自动切换与网络丢包深度评测指南。"),
+        ("/service/", "自营专线通道", "自营专线高速通道：高 SLA 生产力办公网络保障 | 梯子推荐排名", "针对企业跨境团队与高吞吐需求用户，提供独立带宽冗余、99.9% 在线率 SLA 的专线网络通道方案。")
     ]
 
     for route_url, cat_name, cat_title, cat_desc in nav_routes:
@@ -1311,7 +1311,7 @@ def build_site():
                 ALL_URLS.append(canonical)
 
                 bc = [("梯子服务测评", "/"), (title, "")]
-                rendered = render_mana_page(f"{title} | Mana 专题博客", desc, canonical, body_html, breadcrumbs=bc, show_sidebar=True)
+                rendered = render_mana_page(f"{title} | 梯子推荐排名", desc, canonical, body_html, breadcrumbs=bc, show_sidebar=True)
                 with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
                     f.write(rendered)
 
@@ -1339,7 +1339,7 @@ def build_site():
                 ALL_URLS.append(canonical)
 
                 bc = [("常见问题 FAQ", "/faq/"), (title, "")]
-                rendered = render_mana_page(f"{title} | Mana FAQ 知识库", f"常见问题解答：{title}", canonical, body_html, active_nav="/faq/", breadcrumbs=bc, show_sidebar=True)
+                rendered = render_mana_page(f"{title} | FAQ 知识库", f"常见问题解答：{title}", canonical, body_html, active_nav="/faq/", breadcrumbs=bc, show_sidebar=True)
                 with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
                     f.write(rendered)
 
@@ -1371,7 +1371,7 @@ def build_site():
         pagination_html += '</ul>'
 
         faq_index_html = f"""
-        <h1>Mana 常见问题解答 FAQ Center (第 {page_num} 页)</h1>
+        <h1>常见问题解答 FAQ Center (第 {page_num} 页)</h1>
         <p style="color: var(--text-muted); margin-bottom: 1.5rem;">覆盖 100 个关于梯子选型、Clash / Shadowrocket 配置、SS/Trojan 协议与故障排查的核心问答：</p>
         <div class="faq-grid">
             {items_html}
@@ -1389,7 +1389,7 @@ def build_site():
             out_file = os.path.join(page_out_dir, "index.html")
 
         ALL_URLS.append(canonical)
-        rendered = render_mana_page(f"常见问题解答 FAQ (第 {page_num} 页) | Mana 专题博客", "100个梯子推荐与魔法上网常见问题解答中心", canonical, faq_index_html, active_nav="/faq/", breadcrumbs=[("FAQ 知识库", "")], show_sidebar=True)
+        rendered = render_mana_page(f"常见问题解答 FAQ (第 {page_num} 页) | 梯子推荐排名", "100个梯子推荐与魔法上网常见问题解答中心", canonical, faq_index_html, active_nav="/faq/", breadcrumbs=[("FAQ 知识库", "")], show_sidebar=True)
         with open(out_file, "w", encoding="utf-8") as f:
             f.write(rendered)
 
@@ -1409,7 +1409,7 @@ def build_site():
                 canonical = f"https://tztjpaiming.xyz/{slug}/"
                 ALL_URLS.append(canonical)
 
-                rendered = render_mana_page(f"{title} | Mana 专题博客", title, canonical, body_html, active_nav=f"/{slug}/", breadcrumbs=[(title, "")], show_sidebar=True)
+                rendered = render_mana_page(f"{title} | 梯子推荐排名", title, canonical, body_html, active_nav=f"/{slug}/", breadcrumbs=[(title, "")], show_sidebar=True)
                 with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
                     f.write(rendered)
 
@@ -1445,9 +1445,9 @@ def build_site():
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>梯子推荐排名网 (Mana 专题博客)</title>
+    <title>梯子推荐排名网</title>
     <link>https://tztjpaiming.xyz/</link>
-    <description>Hugo Extended + Mana 纯静态文章与专题博客；教程、评测、FAQ、服务状态与自营产品入口。</description>
+    <description>2026年最新梯子推荐与机场排名评测；涵盖 Clash/Shadowrocket/Sing-box 教程、FAQ 知识库与自营专线入口。</description>
     <language>zh-CN</language>
 {rss_items}  </channel>
 </rss>
